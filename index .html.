@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para mi Mariana con Amor ❤️</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="contenedor-principal">
+        <div class="corazon"></div>
+        <div class="mensaje">
+            <h1>Mi Querida Mariana</h1>
+            <p>Eres la melodía de mi circuito, la chispa de mi existencia.</p>
+            <p>Mi amor por ti late con la fuerza de un millón de voltios.</p>
+            <p>Siempre tuyo,</p>
+            <p>Tu [Tu Nombre]</p>
+        </div>
+    </div>
+</body>
+</html>
+Crear index.html con dedicatoria animada
