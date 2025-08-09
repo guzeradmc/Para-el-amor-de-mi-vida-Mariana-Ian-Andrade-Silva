@@ -1,0 +1,83 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fdecfc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.contenedor-principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.corazon {
+    width: 100px;
+    height: 90px;
+    background-color: #e74c3c;
+    position: relative;
+    transform: rotate(-45deg);
+    margin-bottom: 30px;
+    animation: latir 1s infinite alternate;
+}
+
+.corazon:before,
+.corazon:after {
+    content: "";
+    width: 100px;
+    height: 90px;
+    border-radius: 50%;
+    background-color: #e74c3c;
+    position: absolute;
+}
+
+.corazon:before {
+    top: -50px;
+    left: 0;
+}
+
+.corazon:after {
+    top: 0;
+    left: 50px;
+}
+
+@keyframes latir {
+    0% {
+        transform: rotate(-45deg) scale(1);
+    }
+    50% {
+        transform: rotate(-45deg) scale(1.1);
+    }
+    100% {
+        transform: rotate(-45deg) scale(1);
+    }
+}
+
+.mensaje {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.mensaje h1 {
+    color: #d91a7f;
+    margin-bottom: 15px;
+    font-size: 2.5em;
+}
+
+.mensaje p {
+    color: #333;
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.mensaje p:last-child {
+    font-style: italic;
+}
+Crear styles.css con animación de corazón
